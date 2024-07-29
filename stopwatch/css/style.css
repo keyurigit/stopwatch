@@ -1,0 +1,47 @@
+h1{
+    font-size: 50px;
+}
+.stopwatch-container{
+    width:60%;
+    margin:100px auto;
+    padding:50px;
+    border-radius: 50px;
+    background: linear-gradient(60deg, #f8a7a7, #b3b8f2);
+}
+.timer div{
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+.timer input{
+    width: 150px;
+    max-width: 150px;
+    height: 150px;
+    border: none;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    background: -webkit-linear-gradient(#9198e5, #e66465);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.timer input :focus,.timer input:focus-visible{
+    border: none;
+    outline: none;
+}    
+.btn-container button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    margin:5px 0;
+    cursor: pointer;
+}
+.btn-container button i, .btn-container button i:hover{
+    border: none;
+}
+.btn-container button:focus-visible,.btn-container button:focus{
+    outline: none;
+}
+.btn-container button :hover,.btn-container button:focus{
+    border:2px solid black;
+}
